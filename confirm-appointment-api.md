@@ -72,6 +72,22 @@ POST /chatbotapi/appointment/confirm
 }
 ```
 
+### ❌ 404 Not Found – Invalid Event ID
+
+```json
+{
+  "success": false,
+  "data": null,
+  "messageToUser": null,
+  "message": "No appointment found for eventId: 2223",
+  "status": 404,
+  "timestamp": "2025-05-26T15:10:08.709096900Z",
+  "errorCode": "APPT-404",
+  "traceId": "6d64bc8209504bee"
+}
+```
+
+
 ---
 
 ## Notes
