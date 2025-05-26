@@ -88,7 +88,20 @@ POST /chatbotapi/appointment/cancel
   "traceId": "84310c1e44f34ca5"
 }
 ```
+### ❌ 400 Bad Request – Invalid eventId
 
+```json
+{
+    "success": false,
+    "data": null,
+    "messageToUser": null,
+    "message": "No appointment found for eventId: 13111",
+    "status": 404,
+    "timestamp": "2025-05-26T15:24:44.020125100Z",
+    "errorCode": "APPT-404",
+    "traceId": "9927f06ede6c40e0"
+}
+```
 ---
 
 ## Notes
