@@ -24,7 +24,7 @@ The system uses the `eventId`, which uniquely identifies the patient’s existin
 | Content-Type  | application/json   |
 
 ### Request Body
-```json
+```
 {
   "eventId": 3
 }
@@ -53,9 +53,7 @@ The system uses the `eventId`, which uniquely identifies the patient’s existin
 }
 
 ❌ 404 Not Found - Invalid Event ID
-json
-Copy
-Edit
+
 {
   "success": false,
   "data": null,
@@ -68,9 +66,7 @@ Edit
 }
 
 ❌ 400 Bad Request - No Free Slots
-json
-Copy
-Edit
+
 {
   "success": false,
   "data": [],
@@ -83,9 +79,7 @@ Edit
 }
 
 ❌ 400 Bad Request - Arabic Localized Message
-json
-Copy
-Edit
+
 {
   "success": false,
   "data": [],
@@ -96,7 +90,7 @@ Edit
   "errorCode": "APPT-001",
   "traceId": "fd8779f9ccd34996"
 }
-
+```
 Notes
 The eventId is required and uniquely identifies an appointment.
 
