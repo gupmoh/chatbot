@@ -1,7 +1,7 @@
 # 📘 API Specification: Cancel Appointment
 
 ## Endpoint
-**POST** `/chatbotapi/appointment/cancel`  
+**POST** `appointment/cancel`  
 **Base URL**: `{{see the mail}}`
 
 ---
