@@ -2,7 +2,7 @@
 
 ## Endpoint
 **POST** `/chatbotapi/appointment/cancel`  
-**Base URL**: `http://localhost:8010`
+**Base URL**: `{{see the mail}}`
 
 ---
 
