@@ -1,8 +1,8 @@
 # 📘 API Specification: Confirm Appointment
 
 ## Endpoint
-**POST** `/chatbotapi/appointment/confirm`  
-**Base URL**: `http://localhost:8010`
+**POST** `/appointment/confirm`  
+**Base URL**: `{{see the mail}}`
 
 ---
 
