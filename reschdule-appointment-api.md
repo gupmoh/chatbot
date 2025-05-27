@@ -1,8 +1,8 @@
 # 📘 API Specification: Reschedule Appointment
 
 ## Endpoint
-**POST** `/chatbotapi/appointment/reschedule`  
-**Base URL**: `http://localhost:8010`
+**POST** `/appointment/reschedule`  
+**Base URL**: `{{see the mail}}`
 
 ---
 
