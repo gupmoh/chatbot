@@ -43,10 +43,7 @@ All chatbot APIs follow a **uniform response structure** for consistency, debugg
 ```json
 {
   "success": true,
-  "data": {
-    "appointmentId": 12345,
-    "status": "CONFIRMED"
-  },
+  "data": null,
   "messageToUser": "Your appointment has been confirmed successfully.",
   "message": "Appointment confirmed (eventId: 3)",
   "status": 200,
