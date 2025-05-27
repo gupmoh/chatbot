@@ -1,8 +1,8 @@
 # 📘 API Specification: Get Next Available Appointment Dates
 
 ## Endpoint
-**POST** `/chatbotapi/appointment/nextAvailableDates`  
-**Base URL**: `will be provided by request`
+**POST** `/appointment/nextAvailableDates`  
+**Base URL**: `{{see the mail}}`
 
 ---
 
