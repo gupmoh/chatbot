@@ -27,7 +27,8 @@ POST /chatbotapi/appointment/confirm
 ```json
 {
   "eventId": 3,
-  "userLanguage": "ar"
+  "userLanguage": "ar",
+  "messageid": "wamid.HBgLOTY4OTkxODQyMTIVAgARGBIzQjNFQzE1OENFN0ZENjQ3N0QA",
 }
 ```
 
@@ -35,6 +36,9 @@ POST /chatbotapi/appointment/confirm
 |---------------|----------|----------|------------------------------------------------|
 | eventId       | number   | Yes      | Unique ID of the appointment.                 |
 | userLanguage  | string   | Yes      | User's preferred language (e.g., "en", "ar"). |
+| messageid  | string   | NO      |whatsapp messageid  |
+
+Note: either eventid or message id needs to be passed
 
 ---
 
