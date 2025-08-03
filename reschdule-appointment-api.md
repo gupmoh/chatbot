@@ -27,7 +27,9 @@ POST /chatbotapi/appointment/reschedule
 ```json
 {
   "eventId": 3,
-  "availableDt": "2025-08-05"
+  "availableDt": "2025-08-05",
+  "userLanguage": "ar",
+  "messageid": "wamid.HBgLOTY4OTkxODQyMTIVAgARGBIzQjNFQzE1OENFN0ZENjQ3N0QA",
 }
 ```
 
@@ -35,6 +37,10 @@ POST /chatbotapi/appointment/reschedule
 |--------------|--------|----------|----------------------------------------------|
 | eventId      | number | Yes      | Unique ID of the existing appointment.       |
 | availableDt  | string | Yes      | Selected new date for rescheduling (`YYYY-MM-DD`). |
+| userLanguage  | string   | No      | User's preferred language (e.g., "en", "ar"). |
+| messageid  | string   | No      |whatsapp messageid  |
+
+Note: either eventid or message id must be provided
 
 ---
 
