@@ -40,10 +40,10 @@ POST /chatbotapi/appointment/rescheduleByTime
 | eventId      | number | Yes      | Unique ID of the existing appointment.       |
 | availableDt  | string | Yes      | Selected new date for rescheduling (`YYYY-MM-DD`). |
 | availableTime  | string | Yes      | Selected new time for rescheduling (`YYYY-MM-DD`). |
-| userLanguage  | string | No      | Selected new time for rescheduling (`YYYY-MM-DD`). |
+| userLanguage  | string   | No      | User's preferred language (e.g., "en", "ar"). |
 | messageid  | string | No      |   whatsApp messageid /  either eventId or messageid is required  |
 
-
+Note: either eventid or message id must be provided
 ---
 
 ## Responses
