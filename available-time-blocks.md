@@ -1,7 +1,7 @@
 # Next Available Time Blocks API
 
 **Endpoint:**  
-`POST {basepath}/chatbotapi/appointment/nextAvailableTimeBlocks`
+`POST {baseURL}/chatbotapi/appointment/nextAvailableTimeBlocks`
 
 ---
 
