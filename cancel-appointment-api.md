@@ -27,7 +27,10 @@ POST /chatbotapi/appointment/cancel
 ```json
 {
   "eventId": 3,
-  "reason": "travelling.."
+  "reason": "travelling..",
+  "userLanguage": "ar",
+  "messageid": "wamid.HBgLOTY4OTkxODQyMTIVAgARGBIzQjNFQzE1OENFN0ZENjQ3N0QA",
+
 }
 ```
 
@@ -35,7 +38,10 @@ POST /chatbotapi/appointment/cancel
 |---------|--------|----------|--------------------------------------------|
 | eventId | number | Yes      | Unique ID of the appointment to cancel.    |
 | reason  | string | Yes      | Reason for cancellation provided by user.  |
+| userLanguage  | string | Yes      | Userlanguage.  |
+| messageid  | string | No      | whatsapp message id   |
 
+Note: either eventId or messageId needs to be passed
 ---
 
 ## Responses
